@@ -1,0 +1,35 @@
+/* font style for webpage */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font variation */
+.merriweather-header-first {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+.party {
+    font-family: "Merriweather", serif;
+    font-weight: black;
+    font-size: 64px;
+    font-style: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 16px;
+}
+
+.web-page-width {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+  
+/* Banner style */
+.banner {
+    background-image: url("../images/banner image.png");
+    background-repeat: no-repeat;
+    padding: 140px 344px;
+}
+.header {
+}
