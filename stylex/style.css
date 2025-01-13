@@ -43,6 +43,14 @@
     background-repeat: no-repeat;
     padding: 140px 344px;
 }
+.banner-desc {
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
 
 /* Offer Card Style */
 .offer {
@@ -112,7 +120,7 @@
     font-family: "Inter", serif;
     font-size: 18px;
     font-weight: 400;
-    color: white;
+    color: rgba(7, 2, 17, 0.6);
     line-height: 30px;
     letter-spacing: 0%;
 }
@@ -156,4 +164,50 @@
     font-size: 20px;
     line-height: auto;
     color: white;
+}
+
+/* Come section Style */
+.come {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.come-image {
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 45px;
+    max-width: 600px;
+}
+.soon {
+    max-width: 390px;
+}
+.come-head {
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: #ff0000;
+}
+.come-head2 {
+    font-family: "Merriweather", serif;
+    color: rgba(7, 2, 17, 1);
+    font-weight: black;
+    font-size: 45px;
+    line-height: auto;
+    letter-spacing: 0%;
+    color: rgba(7, 2, 17, 1);
+}
+.year-come {
+    max-width: 275px;
+}
+.year-hear {
+    font-family: "Inter", serif;
+    color: #ff0000;
+    font-size: 45px;
+    font-weight: bold;
+}
+.new-yr {
+    margin-top: 43px;
 }
