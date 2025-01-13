@@ -1,6 +1,9 @@
 /* font style for webpage */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 /* font variation */
+.merriweather {
+    font-family: "Merriweather", serif;
+}
 .merriweather-header-first {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -9,6 +12,14 @@
     text-align: center;
     color: rgba(255, 255, 255, 1);
   }
+  /* Inter Font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  /* Inter Font Style */
+
+.inter-normal {
+  font-family: "Inter", serif;
+
+}
 .party {
     font-family: "Merriweather", serif;
     font-weight: black;
@@ -27,9 +38,81 @@
   
 /* Banner style */
 .banner {
-    background-image: url("../images/banner image.png");
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/banner image.png");
     background-repeat: no-repeat;
     padding: 140px 344px;
 }
-.header {
+
+/* Offer Card Style */
+.offer {
+    color: rgb(255, 0, 0);
+    /* font-family: Inter; */
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.offer-desc {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+.offer-pri {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.image {
+    text-align: center;
+}
+.image img {
+    max-width: 802px;
+    max-height: 500px;
+}
+
+/* Welcome Section Style */
+.welcome {
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 126px;
+    gap: 38px;
+    margin-top: 120px;
+}
+.wlc-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.wlc-head {
+    font-size: 60px;
+    font-weight: black;
+    color: #ffffff;
+}
+
+
+/* Shared Styles */
+.primary-desc {
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 0%;
 }
